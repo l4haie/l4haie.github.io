@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFT 3150</title> 
+  </head>
+
+  <body>
+    <h1>IFT 3150 - Projet d'Informatique</h1>
+
+    <pre>#define implémentation implantation</pre>
+
+    <h2>Description du Projet</h2>
+
+    <h3>Description</h3>
+    <p>
+      Le projet consiste à travailler sur Ribbit, une implémentation compacte du langage Scheme. <br>
+      Plus précisément, le projet sera divisé en deux parties:
+      <ol>
+        <li>
+          L'intrégration des nombres flottants dans le système (et, par la même occasion, les <br>
+          bignums qui seront nécessaires pour manipuler la représentation interne des nombres <br>
+          flottants pour les hosts qui ne supportent pas de nombres représentables sur 64 bits, <br>
+          plus de détail dans le rapport);
+        </li>
+        <li>
+          Le développement et l'implémentation d'un <i>garbage collector</i> incrémental à l'aide <br>
+          des arbres d'Even-Shiloach (un algorithme sur les graphes dynamiques). Cette partie du <br>
+          projet devrait mener à une publication scientifique.
+        </li>
+      </ol>
+    </p>
+
+    <h3>Plan de développement</h3>
+    <p>
+      Le projet commence (ou a commencé) le lundi 6 mai et se terminera à la fin de l'été. <br>
+      L'intégration des nombres flottants devrait durer environ 4 semaines. <br>
+      Le reste de l'été sera consacré au développement et à l'implémentation du GC.
+    </p>
+
+    <h2>Rapports d'avancement</h2>
+
+    <h3>6 mai - 19 mai</h3>
+    <p>
+      La première semaine a surtout été consacrée à me (re)familiariser avec Scheme et Ribbit <br>
+      alors que la deuxième semaine a été entièrement dédiée à l'implémentation de la logique <br>
+      des bignums. Dans les grandes lignes:
+      <ul>
+        <li>
+          Lecture du dernier papier sur Ribbit et rencontre avec Léonard pour faire un survol <br>
+          des changements qui sont survenu dans le compilateur dans la dernière année; 
+        </li>
+        <li>
+          Implémentation des procédures essentielles de R4RS en lien avec les nombres <br>
+          (addition, soustraction, soustraction unaire, multiplication, division entière, <br>
+          <i>remainder</i>, modulo, opérateurs de comparaison, négation, lcm, gcd, etc.);
+        </li>
+        <li>
+          Normalisation de la représentation des bignums et support pour les fixnums dans <br>
+          l'implémentation des procédures pour les bignums (par exemple pour faire une <br>
+          addition entre un fixnum et un bignum);
+        </li>
+        <li>
+          Support pour les procédures variadiques (qui acceptent un nombre arbitraire <br>
+          d'arguments);
+        </li>
+        <li>
+          Des tests... beaucoup de tests.
+        </li>
+      </ul>
+      Pour le moment je suis toujours dans mon échéancier. J'espère pouvoir améliorer la <br>
+      performance de certains de mes algorithmes la semaine prochaine si le temps le permet <br>
+      (la perfomance de la multiplication et de la division entière laisse à désirer) mais <br>
+      le focus sera principalement de finaliser les détails pour avoir une logique qui <br>
+      marche et ensuite d'intégrer les bignums dans Ribbit pour pouvoir ensuite s'attaquer <br>
+      aux nombres flottants. 
+    </p>
+
+    <h3>20 mai - 2 juin</h3>
+    <p>
+      
+    </p>
+
+    <h3>3 juin - 16 juin</h3>
+    <p>
+      
+    </p>
+
+    <h3>17 juin - 30 juin</h3>
+    <p>
+      
+    </p>
+
+    <h3>1er juillet - 14 juillet</h3>
+    <p>
+      
+    </p>
+
+    <h3>15 juillet - 28 juillet</h3>
+    <p>
+      
+    </p>
+
+    <h3>29 juillet - 11 août</h3>
+    <p>
+      
+    </p>
+
+    <h3>12 août - fin de l'été</h3>
+    <p>
+      
+    </p>
+
+    <h2>Rapport final et résumé</h2>
+  </body>
+
+  </html>
