@@ -11,8 +11,6 @@
   <body>
     <h1>IFT 3150 - Projet d'Informatique</h1>
 
-    <pre>#define implémentation implantation</pre>
-
     <h2>Description du Projet</h2>
 
     <h3>Description</h3>
@@ -117,12 +115,32 @@
 
     <h3>1er juillet - 14 juillet</h3>
     <p>
-      
+      J'ai finalisé l'implémentation des bignums et grandement amélioré la performance des opérations
+      (particulièrement l'affichage des bignums qui se fait maintenant environ 60 fois plus rapidement
+      qu'il y a deux semaines). 
+    </p>
+    <p>
+      J'ai également commencé le travail sur les flonums en implémentant un algorithme qui permet 
+      de convertir un flonum en chaîne de caractère (i.e. trouver le nombre flottant le plus précis 
+      à partir de sa représentation IEEE 754 et ensuite le convertif en string).
+
+      L'algorithme qui permet de faire cette conversion est celui décrit dans le papier <i>Printing
+      Floating-Point Numbers Quickly and Accurately</i> par Robert G. Burger (même algorithme que
+      celui de Gambit). Malheureusement, la performance de mon implémentation n'est pas optimale 
+      (mais tout de même assez bonne pour être utilisable) puisque je n'ai pas de façon efficace de 
+      faire l'opération de logarithme en Ribbit et qu'une implémentation de cette opération serait
+      probablement trop couteuse pour être offrir une meilleur performance (à voir). 
     </p>
 
     <h3>15 juillet - 28 juillet</h3>
     <p>
-      
+      La première semaine a été consacrée à la conversion inverse, c'est-à-dire de prendre un nombre
+      flottant sous forme de chaîne de caractère et en extraire sa représentation IEEE 754 de sorte
+      à obtenir le même nombre flottant lorsqu'on refait la conversion vers une chaîne de caractère.
+    </p>
+    <p>
+      La deuxième semaine a été consacrée à la préparation pour l'examen final de mon autre cours et
+      je n'ai donc absolument rien fait en lien avec le projet.
     </p>
 
     <h3>29 juillet - 11 août</h3>
